@@ -5,7 +5,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // 2. KONFIGURASI GEMINI (Ganti dengan API KEY milikmu)
 // PENTING: Untuk portfolio asli, gunakan file .env agar API Key tidak bocor di GitHub.
-const API_KEY = "AIzaSyCTAxqwUa-0P33jXRouCDdmHVQLzNBanq8";
+const API_KEY = "secret_api_key"; // Ganti dengan API Key asli kamu
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 export default function App() {
